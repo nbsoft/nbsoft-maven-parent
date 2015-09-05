@@ -159,7 +159,7 @@
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-checkstyle</artifactId>
+                    <artifactId>maven-checkstyle-plugin</artifactId>
                     <version>2.16</version>
                 </plugin>
                 <plugin>
@@ -174,7 +174,7 @@
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-depency-plugin</artifactId>
+                    <artifactId>maven-dependency-plugin</artifactId>
                     <version>2.10</version>
                 </plugin>
                 <plugin>
@@ -189,7 +189,7 @@
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-docck</artifactId>
+                    <artifactId>maven-docck-plugin</artifactId>
                     <version>1.1</version>
                 </plugin>
                 <plugin>
@@ -325,7 +325,7 @@
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-publish-plugin</artifactId>
+                    <artifactId>maven-scm-publish-plugin</artifactId>
                     <version>1.1</version>
                 </plugin>
                 <plugin>
