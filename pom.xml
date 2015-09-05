@@ -77,6 +77,10 @@
         <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
     </properties>
 
+    <prerequisites>
+        <maven>3.0</maven>
+    </prerequisites>
+
     <distributionManagement>
         <snapshotRepository>
             <id>sonatype-nexus-snapshots</id>
