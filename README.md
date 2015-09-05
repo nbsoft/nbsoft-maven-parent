@@ -1,7 +1,8 @@
 # NB Soft. Maven Parent
 
-This repository contains the Parent POM (Project Object Model), that is used for all the NB Soft. Maven-based projects.
-The Parent POM implements organization information, pre-defined- settings, dependencies and plugins.
+This repository contains a Parent POM (Project Object Model).
+NB Soft uses this Parent POM for all their Maven-based projects.
+The Parent POM implements organization information, predefined- settings, dependencies and plugins.
 
 ## License
 
