@@ -68,7 +68,7 @@
 
     <scm>
         <connection>scm:git:git://github.com/nbsoft/nbsoft-maven-parent.git</connection>
-        <developerConnection>scm:git:git://github.com/nbsoft/nbsoft-maven-parent.git</developerConnection>
+        <developerConnection>scm:git:git@github.com:nbsoft/nbsoft-maven-parent.git</developerConnection>
         <url>https://github.com/nbsoft/nbsoft-maven-parent/tree/master</url>
         <tag>HEAD</tag>
     </scm>
