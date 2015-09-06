@@ -44,7 +44,7 @@
     </licenses>
 
     <issueManagement>
-        <system>GitHub Issues</system>
+        <system>GitHub</system>
         <url>https://github.com/nbsoft/nbsoft-maven-parent/issues</url>
     </issueManagement>
 
