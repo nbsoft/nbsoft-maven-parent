@@ -1,6 +1,6 @@
 # NB Soft. Maven Parent
 
-[![Build Status](https://travis-ci.org/nbsoft/nbsoft-maven-parent.svg)](https://travis-ci.org/nbsoft/nbsoft-maven-parent)
+[![Build Status](https://travis-ci.org/nbsoft/nbsoft-maven-parent.svg?branch=master)](https://travis-ci.org/nbsoft/nbsoft-maven-parent)
 [![License](https://img.shields.io/github/license/nbsoft/nbsoft-maven-parent.svg)](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
 This repository contains a Parent POM (Project Object Model).
