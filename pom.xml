@@ -77,10 +77,10 @@
     </ciManagement>
 
     <properties>
-        <required.maven.version>3.0</required.maven.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <required.maven.version>3.0</required.maven.version>
     </properties>
 
     <prerequisites>
