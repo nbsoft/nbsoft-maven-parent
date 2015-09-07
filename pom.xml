@@ -7,7 +7,7 @@
     you may not use this file except in compliance with the License.
     You may obtain a copy of the License at
 
-            http://www.apache.org/licenses/LICENSE-2.0
+        http://www.apache.org/licenses/LICENSE-2.0
 
     Unless required by applicable law or agreed to in writing, software
     distributed under the License is distributed on an "AS IS" BASIS,
@@ -43,11 +43,6 @@
         </license>
     </licenses>
 
-    <issueManagement>
-        <system>GitHub</system>
-        <url>https://github.com/nbsoft/nbsoft-maven-parent/issues</url>
-    </issueManagement>
-
     <developers>
         <developer>
             <id>nberlijn</id>
@@ -70,6 +65,16 @@
         <url>https://github.com/nbsoft/nbsoft-maven-parent/tree/master</url>
         <tag>HEAD</tag>
     </scm>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/nbsoft/nbsoft-maven-parent/issues</url>
+    </issueManagement>
+
+    <ciManagement>
+        <system>Travis CI</system>
+        <url>https://travis-ci.org/nbsoft/nbsoft-maven-parent</url>
+    </ciManagement>
 
     <properties>
         <required.maven.version>3.0</required.maven.version>
@@ -432,11 +437,17 @@
                         <groupId>com.mycila</groupId>
                         <artifactId>license-maven-plugin</artifactId>
                         <configuration>
-                            <header>com/mycila/maven/plugin/license/templates/APACHE-2.txt</header>
+                            <header>http://licenses.nbsoft.org/templates/APACHE-2.0</header>
                             <properties>
-                                <owner>NB Soft</owner>
+                                <year>${project.inceptionYear}</year>
+                                <owner>${project.organization.name}</owner>
                                 <email>info@nbsoft.org</email>
                             </properties>
+                            <mapping>
+                                <java>SLASHSTAR_STYLE</java>
+                                <groovy>SLASHSTAR_STYLE</groovy>
+                                <css>SLASHSTAR_STYLE</css>
+                            </mapping>
                             <excludes>
                                 <exclude>**/LICENSE</exclude>
                                 <exclude>**/README</exclude>
@@ -446,8 +457,10 @@
                         </configuration>
                         <executions>
                             <execution>
+                                <id>check</id>
+                                <phase>initialize</phase>
                                 <goals>
-                                    <goal>check</goal>
+                                    <goal>format</goal>
                                 </goals>
                             </execution>
                         </executions>
