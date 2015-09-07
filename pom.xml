@@ -43,16 +43,6 @@
         </license>
     </licenses>
 
-    <issueManagement>
-        <system>GitHub</system>
-        <url>https://github.com/nbsoft/nbsoft-maven-parent/issues</url>
-    </issueManagement>
-
-    <ciManagement>
-        <system>Travis CI</system>
-        <url>https://travis-ci.org/nbsoft/nbsoft-maven-parent</url>
-    </ciManagement>
-
     <developers>
         <developer>
             <id>nberlijn</id>
@@ -75,6 +65,16 @@
         <url>https://github.com/nbsoft/nbsoft-maven-parent/tree/master</url>
         <tag>HEAD</tag>
     </scm>
+
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/nbsoft/nbsoft-maven-parent/issues</url>
+    </issueManagement>
+
+    <ciManagement>
+        <system>Travis CI</system>
+        <url>https://travis-ci.org/nbsoft/nbsoft-maven-parent</url>
+    </ciManagement>
 
     <properties>
         <required.maven.version>3.0</required.maven.version>
