@@ -442,6 +442,11 @@
                                 <owner>NB Soft</owner>
                                 <email>info@nbsoft.org</email>
                             </properties>
+                            <mapping>
+                                <java>SLASHSTAR_STYLE</java>
+                                <groovy>SLASHSTAR_STYLE</groovy>
+                                <css>SLASHSTAR_STYLE</css>
+                            </mapping>
                             <excludes>
                                 <exclude>**/LICENSE</exclude>
                                 <exclude>**/README</exclude>
@@ -451,8 +456,10 @@
                         </configuration>
                         <executions>
                             <execution>
+                                <id>check</id>
+                                <phase>initialize</phase>
                                 <goals>
-                                    <goal>check</goal>
+                                    <goal>format</goal>
                                 </goals>
                             </execution>
                         </executions>
