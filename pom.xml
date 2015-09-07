@@ -80,11 +80,11 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <required.maven.version>3.0</required.maven.version>
+        <maven.requiredVersion>3.0</maven.requiredVersion>
     </properties>
 
     <prerequisites>
-        <maven>${required.maven.version}</maven>
+        <maven>${maven.requiredVersion}</maven>
     </prerequisites>
 
     <distributionManagement>
@@ -398,7 +398,7 @@
                         <configuration>
                             <rules>
                                 <requireMavenVersion>
-                                    <version>${required.maven.version}</version>
+                                    <version>${maven.requiredVersion}</version>
                                 </requireMavenVersion>
                             </rules>
                         </configuration>
