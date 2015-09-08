@@ -9,7 +9,7 @@ The Parent POM implements organization information, predefined- settings, depend
 
 ## Contributing
 
-Thank you for considering contributing to NB Soft. Maven Parent! Please read the [CONTRIBUTING](CONTRIBUTING.md) guide first.
+Thank you for considering contributing to NB Soft. Maven Parent! Please read the [contributing](CONTRIBUTING.md) guide first.
 
 ## License
 
