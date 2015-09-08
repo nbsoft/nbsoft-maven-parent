@@ -5,3 +5,8 @@ target/
 .idea/
 .out/
 *.iml
+
+# Eclipse
+.settings/
+.project
+.classpath
