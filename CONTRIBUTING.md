@@ -7,7 +7,7 @@ Thank you for considering contributing to NB Soft. Maven Parent! A few things yo
 
 ## Pull requests
 
-1. [Fork](https://github.com/nbsoft/nbsoft-maven-parent#fork-destination-box) the repository.
+1. [Fork](https://github.com/nbsoft/nbsoft-maven-parent/fork) the repository.
 2. Create a new branch from the `master` branch.
 2. Make your changes.
 4. Submit a [pull request](https://github.com/nbsoft/nbsoft-maven-parent/compare).
