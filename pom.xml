@@ -410,7 +410,7 @@
 
     <profiles>
         <profile>
-            <id>clean</id>
+            <id>auto-clean</id>
             <build>
                 <plugins>
                     <plugin>
@@ -430,7 +430,7 @@
             </build>
         </profile>
         <profile>
-            <id>license</id>
+            <id>format-license</id>
             <build>
                 <plugins>
                     <plugin>
