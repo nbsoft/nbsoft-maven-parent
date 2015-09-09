@@ -80,6 +80,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <project.simpleName>nbsoft</project.simpleName>
         <maven.version>3.0</maven.version>
         <jdk.version>1.8</jdk.version>
     </properties>
@@ -103,6 +104,11 @@
     </repositories>
 
     <distributionManagement>
+        <site>
+            <id>nbsoft-docs</id>
+            <name>NB Soft Docs</name>
+            <url>scp://ssh.pcextreme.nl:/home/vhosting/b/vhost0071211/domains/nbsoft.org/htdocs/docs/${project.simpleName}/${project.artifactId}/${project.version}</url>
+        </site>
         <snapshotRepository>
             <id>sonatype-nexus-snapshots</id>
             <name>Sonatype Nexus Snapshots</name>
@@ -354,6 +360,21 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-site-plugin</artifactId>
                     <version>3.4</version>
+                    <dependencies>
+                        <dependency>
+                            <groupId>org.apache.maven.wagon</groupId>
+                            <artifactId>wagon-ssh</artifactId>
+                            <version>2.9</version>
+                        </dependency>
+                    </dependencies>
+                    <executions>
+                        <execution>
+                            <id>attach-descriptor</id>
+                            <goals>
+                                <goal>attach-descriptor</goal>
+                            </goals>
+                        </execution>
+                    </executions>
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>
@@ -398,7 +419,7 @@
                 <artifactId>maven-enforcer-plugin</artifactId>
                 <executions>
                     <execution>
-                        <id>enforce-maven</id>
+                        <id>enforce</id>
                         <goals>
                             <goal>enforce</goal>
                         </goals>
@@ -407,6 +428,9 @@
                                 <requireMavenVersion>
                                     <version>${maven.version}</version>
                                 </requireMavenVersion>
+                                <requireJavaVersion>
+                                    <version>${jdk.version}</version>
+                                </requireJavaVersion>
                             </rules>
                         </configuration>
                     </execution>
@@ -464,7 +488,7 @@
                         </configuration>
                         <executions>
                             <execution>
-                                <id>check</id>
+                                <id>format-license</id>
                                 <phase>initialize</phase>
                                 <goals>
                                     <goal>format</goal>
