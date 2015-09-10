@@ -500,6 +500,17 @@
             </build>
         </profile>
         <profile>
+            <id>report-change-log</id>
+            <reporting>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-changelog-plugin</artifactId>
+                    </plugin>
+                </plugins>
+            </reporting>
+        </profile>
+        <profile>
             <id>release</id>
             <build>
                 <plugins>
