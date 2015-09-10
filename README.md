@@ -1,4 +1,4 @@
-# NB Soft. Maven Parent
+# NB Soft - Maven Parent
 
 [![Build Status](https://travis-ci.org/nbsoft/nbsoft-maven-parent.svg?branch=master)](https://travis-ci.org/nbsoft/nbsoft-maven-parent)
 [![License](https://img.shields.io/github/license/nbsoft/nbsoft-maven-parent.svg)](http://www.apache.org/licenses/LICENSE-2.0.txt)
@@ -9,8 +9,8 @@ The Parent POM implements organization information, predefined- settings, depend
 
 ## Contributing
 
-Thank you for considering contributing to NB Soft. Maven Parent! Please read the [contributing](CONTRIBUTING.md) guide first.
+Thank you for considering contributing to NB Soft - Maven Parent! Please read the [contributing](CONTRIBUTING.md) guide first.
 
 ## License
 
-NB Soft. Maven Parent is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt)
+NB Soft - Maven Parent is licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0.txt)
