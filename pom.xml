@@ -80,7 +80,6 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <project.simpleName>nbsoft</project.simpleName>
         <maven.version>3.0</maven.version>
         <jdk.version>1.8</jdk.version>
     </properties>
@@ -107,7 +106,7 @@
         <site>
             <id>nbsoft-docs</id>
             <name>NB Soft Docs</name>
-            <url>scp://ssh.pcextreme.nl:/home/vhosting/b/vhost0071211/domains/nbsoft.org/htdocs/docs/${project.simpleName}/${project.artifactId}/${project.version}</url>
+            <url>scp://ssh.pcextreme.nl:/home/vhosting/b/vhost0071211/domains/nbsoft.org/htdocs/docs/${project.artifactId}/${project.version}</url>
         </site>
         <snapshotRepository>
             <id>sonatype-nexus-snapshots</id>
@@ -499,6 +498,17 @@
                     </plugin>
                 </plugins>
             </build>
+        </profile>
+        <profile>
+            <id>report-change-log</id>
+            <reporting>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-changelog-plugin</artifactId>
+                    </plugin>
+                </plugins>
+            </reporting>
         </profile>
         <profile>
             <id>release</id>
