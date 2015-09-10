@@ -9,7 +9,7 @@ The Parent POM implements organization information, predefined- settings, depend
 
 ## Documentation
 
-Documentation for this project can be found at [NB Soft Docs]
+Documentation for this project can be found at the [NB Soft Docs] section.
 
 ## Change Log
 
