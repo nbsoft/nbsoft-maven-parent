@@ -12,5 +12,5 @@ All notable changes to this project will be documented in this file.
 - SCM
 - Properties
 - Prerequisites
-- Issue-, CI-, distribution-, dependencies- and plugins Management
-- Profiles; auto-clean-, format-license- and release profile
+- Issue-, CI-, Distribution-, Dependencies- and Plugins Management
+- Profiles
