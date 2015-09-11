@@ -26,7 +26,7 @@
     <packaging>pom</packaging>
 
     <name>NB Soft - Maven Parent</name>
-    <description>The Parent POM (Project Object Model) is used for all the NB Soft Maven-based projects.</description>
+    <description>NB Soft uses this parent POM (Project Object Model) for all their Maven-based projects.</description>
     <url>https://github.com/nbsoft/nbsoft-maven-parent</url>
     <inceptionYear>2015</inceptionYear>
 
