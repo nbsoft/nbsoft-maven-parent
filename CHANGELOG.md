@@ -6,13 +6,13 @@ All notable changes to this project will be documented in this file.
 
 **Added:**
 
-- Basic- and Organization information
+- Basic- and organization information
 - Licenses
 - Developers
 - SCM
 - Properties
 - Prerequisites
-- Issue-, CI-, Distribution-, Dependencies- and Plugins Management
+- Issue-, CI-, distribution-, dependencies- and plugins management
 - Profiles
 
 [1]: https://github.com/nbsoft/nbsoft-maven-parent/tree/1
