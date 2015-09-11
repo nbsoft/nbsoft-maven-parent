@@ -17,7 +17,7 @@ View the [change log] of this project.
 
 ## Contributing
 
-Thank you for considering contributing to NB Soft - Maven Parent! Please read the [contributing] guide first.
+Thank you for considering contributing to this project! Please read the [contributing] guide first.
 
 ## License
 

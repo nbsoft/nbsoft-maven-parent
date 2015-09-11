@@ -1,6 +1,6 @@
-# Contributing to NB Soft - Maven Parent
+# Contributing
 
-Thank you for considering contributing to NB Soft - Maven Parent! A few things you should know about contributing:
+Thank you for considering contributing to this project! A few things you should know about contributing:
 
 * If you're interested in seeing a new feature, create a [new issue] and describe the feature.
 * If you're fixing a bug, feel free to submit a [pull request].
@@ -14,7 +14,7 @@ Thank you for considering contributing to NB Soft - Maven Parent! A few things y
 
 ## License
 
-By contributing to NB Soft - Maven Parent you agree that your contributions will be licensed under the [Apache License, Version 2.0]
+By contributing to this project you agree that your contributions will be licensed under the [Apache License, Version 2.0]
 
 [new issue]: https://github.com/nbsoft/nbsoft-maven-parent/issues/new
 [pull request]: https://github.com/nbsoft/nbsoft-maven-parent/compare
