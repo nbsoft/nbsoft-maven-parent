@@ -63,9 +63,9 @@
     </developers>
 
     <scm>
-        <connection>scm:git:git://github.com/nbsoft/${scm.repository.name}.git</connection>
+        <connection>scm:git:https://github.com/nbsoft/${scm.repository.name}.git</connection>
         <developerConnection>scm:git:git@github.com:nbsoft/${scm.repository.name}.git</developerConnection>
-        <url>https://github.com/nbsoft/${scm.repository.name}/tree/master</url>
+        <url>https://github.com/nbsoft/${scm.repository.name}</url>
         <tag>HEAD</tag>
     </scm>
 
