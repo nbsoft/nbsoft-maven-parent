@@ -56,6 +56,9 @@
                 <role>developer</role>
             </roles>
             <timezone>+1</timezone>
+            <properties>
+                <picUrl>https://s.gravatar.com/avatar/94ccc6330e005ebf2165168da16a82a5?s=60</picUrl>
+            </properties>
         </developer>
     </developers>
 
@@ -72,13 +75,12 @@
     </issueManagement>
 
     <ciManagement>
-        <system>Travis CI</system>
+        <system>Travis</system>
         <url>https://travis-ci.org/nbsoft/nbsoft-maven-parent</url>
     </ciManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.version>3.0</maven.version>
         <jdk.version>1.8</jdk.version>
@@ -126,6 +128,7 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>4.12</version>
+                <scope>test</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
