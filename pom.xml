@@ -75,7 +75,7 @@
     </issueManagement>
 
     <ciManagement>
-        <system>Travis CI</system>
+        <system>Travis</system>
         <url>https://travis-ci.org/nbsoft/nbsoft-maven-parent</url>
     </ciManagement>
 
