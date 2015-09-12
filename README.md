@@ -9,7 +9,7 @@ The parent POM implements organization information, settings, dependencies and p
 
 ## Documentation
 
-Documentation for this project can be found at the [NB Soft Docs] section.
+Documentation for this project can be found at the [docs] section.
 
 ## Changelog
 
@@ -25,7 +25,7 @@ NB Soft - Maven Parent is licensed under the [Apache License, Version 2.0]
 
 [Build Status]: https://travis-ci.org/nbsoft/nbsoft-maven-parent.svg?branch=master
 [License]: https://img.shields.io/github/license/nbsoft/nbsoft-maven-parent.svg
-[NB Soft Docs]: http://docs.nbsoft.org/nbsoft-parent
+[docs]: http://nbsoft-maven-parent.nbsoft.org/docs/1
 [changelog]: CHANGELOG.md
 [contributing]: CONTRIBUTING.md
 [Apache License, Version 2.0]: http://www.apache.org/licenses/LICENSE-2.0.txt
