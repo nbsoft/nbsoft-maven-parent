@@ -82,6 +82,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <github.global.server>github</github.global.server>
         <scm.repository.name>nbsoft-maven-parent</scm.repository.name>
         <maven.version>3.0</maven.version>
         <jdk.version>1.8</jdk.version>
@@ -106,11 +107,6 @@
     </repositories>
 
     <distributionManagement>
-        <site>
-            <id>nbsoft-docs</id>
-            <name>NB Soft Docs</name>
-            <url>scp://ssh.pcextreme.nl:/home/vhosting/b/vhost0071211/domains/nbsoft.org/htdocs/docs/${project.artifactId}/${project.version}</url>
-        </site>
         <snapshotRepository>
             <id>sonatype-nexus-snapshots</id>
             <name>Sonatype Nexus Snapshots</name>
@@ -363,13 +359,6 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-site-plugin</artifactId>
                     <version>3.4</version>
-                    <dependencies>
-                        <dependency>
-                            <groupId>org.apache.maven.wagon</groupId>
-                            <artifactId>wagon-ssh</artifactId>
-                            <version>2.9</version>
-                        </dependency>
-                    </dependencies>
                     <executions>
                         <execution>
                             <id>attach-descriptor</id>
@@ -496,6 +485,32 @@
                                 <phase>initialize</phase>
                                 <goals>
                                     <goal>format</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>deploy-site</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>com.github.github</groupId>
+                        <artifactId>site-maven-plugin</artifactId>
+                        <version>0.12</version>
+                        <configuration>
+                            <message>Creating site for ${project.version}</message>
+                            <path>docs/${project.version}</path>
+                            <merge>true</merge>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <id>deploy-site</id>
+                                <phase>site</phase>
+                                <goals>
+                                    <goal>site</goal>
                                 </goals>
                             </execution>
                         </executions>
