@@ -21,7 +21,7 @@ Thank you for considering contributing to this project! Please read the [contrib
 
 ## License
 
-NB Soft - Maven Parent is licensed under the [Apache License, Version 2.0]
+This project is licensed under the [Apache License, Version 2.0]
 
 [Build Status]: https://travis-ci.org/nbsoft/nbsoft-maven-parent.svg?branch=master
 [License]: https://img.shields.io/github/license/nbsoft/nbsoft-maven-parent.svg
