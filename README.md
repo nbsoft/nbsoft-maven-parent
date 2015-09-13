@@ -25,7 +25,7 @@ This project is licensed under the [Apache License, Version 2.0]
 
 [Build Status]: https://travis-ci.org/nbsoft/nbsoft-maven-parent.svg?branch=master
 [License]: https://img.shields.io/github/license/nbsoft/nbsoft-maven-parent.svg
-[docs]: http://nbsoft-maven-parent.nbsoft.org/docs/1
+[docs]: http://nbsoft-maven-parent.nbsoft.org/docs/nbsoft-parent-1
 [changelog]: CHANGELOG.md
 [contributing]: CONTRIBUTING.md
 [Apache License, Version 2.0]: http://www.apache.org/licenses/LICENSE-2.0.txt
