@@ -465,8 +465,8 @@
                         <groupId>com.github.github</groupId>
                         <artifactId>site-maven-plugin</artifactId>
                         <configuration>
-                            <message>Creating site for ${project.version}</message>
-                            <path>docs/${project.version}</path>
+                            <message>Creating site for ${project.build.finalName}</message>
+                            <path>docs/${project.build.finalName}</path>
                             <merge>true</merge>
                         </configuration>
                         <executions>
