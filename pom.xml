@@ -134,6 +134,11 @@
         <pluginManagement>
             <plugins>
                 <plugin>
+                    <groupId>com.github.github</groupId>
+                    <artifactId>site-maven-plugin</artifactId>
+                    <version>0.12</version>
+                </plugin>
+                <plugin>
                     <groupId>com.mycila</groupId>
                     <artifactId>license-maven-plugin</artifactId>
                     <version>2.11</version>
@@ -499,7 +504,6 @@
                     <plugin>
                         <groupId>com.github.github</groupId>
                         <artifactId>site-maven-plugin</artifactId>
-                        <version>0.12</version>
                         <configuration>
                             <message>Creating site for ${project.version}</message>
                             <path>docs/${project.version}</path>
