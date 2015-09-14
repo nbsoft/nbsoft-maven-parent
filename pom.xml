@@ -22,7 +22,7 @@
 
     <groupId>org.nbsoft</groupId>
     <artifactId>nbsoft-parent</artifactId>
-    <version>1-SNAPSHOT</version>
+    <version>1</version>
     <packaging>pom</packaging>
 
     <name>NB Soft - Maven Parent</name>
@@ -66,7 +66,7 @@
         <connection>scm:git:https://github.com/nbsoft/${scm.repository.name}.git</connection>
         <developerConnection>scm:git:git@github.com:nbsoft/${scm.repository.name}.git</developerConnection>
         <url>https://github.com/nbsoft/${scm.repository.name}</url>
-        <tag>HEAD</tag>
+        <tag>nbsoft-parent-1</tag>
     </scm>
 
     <issueManagement>
