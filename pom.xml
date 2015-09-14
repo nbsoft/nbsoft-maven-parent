@@ -83,6 +83,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <github.global.server>github</github.global.server>
+        <site.path>docs/${project.artifactId}/${project.version}</site.path>
         <scm.repository.name>nbsoft-maven-parent</scm.repository.name>
         <maven.version>3.0</maven.version>
         <jdk.version>1.8</jdk.version>
@@ -470,7 +471,7 @@
                         <artifactId>site-maven-plugin</artifactId>
                         <configuration>
                             <message>Creating site for ${project.build.finalName}</message>
-                            <path>docs/${project.build.finalName}</path>
+                            <path>${site.path}</path>
                             <merge>true</merge>
                         </configuration>
                         <executions>
