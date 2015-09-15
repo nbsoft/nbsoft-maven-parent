@@ -1,6 +1,7 @@
 # NB Soft - Maven Parent
 
 [![Build Status]](https://travis-ci.org/nbsoft/nbsoft-maven-parent)
+[![Maven Central]](https://maven-badges.herokuapp.com/maven-central/org.nbsoft/nbsoft-parent)
 [![License]](http://www.apache.org/licenses/LICENSE-2.0.txt)
 
 This repository contains a parent POM (Project Object Model).
@@ -24,6 +25,7 @@ Thank you for considering contributing to this project! Please read the [contrib
 This project is licensed under the [Apache License, Version 2.0]
 
 [Build Status]: https://travis-ci.org/nbsoft/nbsoft-maven-parent.svg?branch=master
+[Maven Central]: https://maven-badges.herokuapp.com/maven-central/org.nbsoft/nbsoft-parent/badge.svg
 [License]: https://img.shields.io/github/license/nbsoft/nbsoft-maven-parent.svg
 [docs]: http://nbsoft-maven-parent.nbsoft.org/docs
 [changelog]: CHANGELOG.md
