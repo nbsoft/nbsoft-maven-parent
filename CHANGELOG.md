@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file.
 
 - Properties Maven Plugin
 
+**Updated:**
+
+- Properties
+
 [Full changelog](https://github.com/nbsoft/nbsoft-maven-parent/compare/nbsoft-parent-2...nbsoft-parent-1)
 
 ## [nbsoft-parent-1] - 2015-09-14
