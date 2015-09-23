@@ -11,6 +11,7 @@ All notable changes to this project will be documented in this file.
 **Updated:**
 
 - Properties
+- Profiles
 
 [Full changelog](https://github.com/nbsoft/nbsoft-maven-parent/compare/nbsoft-parent-1...nbsoft-parent-2)
 
